@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Wilde City</string>
+    <string name="place_list">Place List</string>
+    <string name="place_details">Place Details</string>
+
+    <string name="string_arrow_back">Ir hacia atrás</string>
+    <string name="string_category">Categoría:</string>
 
     <string name="category_cine">Cines</string>
     <string name="category_parque">Parques</string>
@@ -18,30 +23,61 @@
     <string name="cafeteria_3_description">.</string>
 
     <string name="centro_comercial_1_name">Alto Wilde Shopping</string>
-    <string name="centro_comercial_1_description">.</string>
+    <string name="centro_comercial_1_description">Alto Wilde Shopping es un centro comercial de
+        lujo, con una arquitectura moderna y una selección exclusiva de boutiques de moda,
+        restaurantes gourmet, y entretenimiento de alta gama. Su diseño incluye terrazas al aire
+        libre con vistas panorámicas, creando un ambiente sofisticado y atractivo para los
+        visitantes.</string>
     <string name="centro_comercial_2_name">Abasto Wilde</string>
     <string name="centro_comercial_2_description">.</string>
 
     <string name="cine_1_name">Cine Wilde</string>
-    <string name="cine_1_description">.</string>
+    <string name="cine_1_description">Cine Wilde es un espacio elegante y contemporáneo, con un
+        diseño arquitectónico inspirado en la estética Art Deco. Sus salas están equipadas con
+        tecnología de proyección 4D y sonido envolvente, ofreciendo una experiencia inmersiva única.
+        Además, cuenta con un exclusivo lounge bar temático, ideal para disfrutar antes o después
+        de la función.</string>
     <string name="cine_2_name">New Gardens Wilde</string>
-    <string name="cine_2_description">.</string>
+    <string name="cine_2_description">New Gardens Wilde es un cine boutique rodeado de exuberantes
+        jardines, que combina proyecciones al aire libre con salas íntimas y acogedoras. Su ambiente
+        relajado y su selección de películas de autor lo convierten en un refugio cultural en medio
+        de la naturaleza.</string>
     <string name="cine_3_name">Cinemark</string>
-    <string name="cine_3_description">.</string>
+    <string name="cine_3_description">Cinemark es un cine de gran escala, conocido por sus modernas
+        instalaciones y pantallas gigantes con tecnología IMAX. Ofrece una amplia gama de películas
+        comerciales y eventos en vivo, junto con un área de snacks gourmet y cómodas butacas
+        reclinables.</string>
 
     <string name="heladeria_1_name">Mamalisa gelato</string>
-    <string name="heladeria_1_description">.</string>
+    <string name="heladeria_1_description">Mamalisa Gelato es una heladería artesanal que ofrece una
+        variedad de sabores inspirados en recetas tradicionales italianas, utilizando ingredientes
+        frescos y locales. Su ambiente acogedor, con toques neon, es perfecto para disfrutar de
+        un gelato auténtico en un entorno familiar.</string>
     <string name="heladeria_2_name">Don Giani</string>
-    <string name="heladeria_2_description">.</string>
+    <string name="heladeria_2_description">Don Giani es una heladería moderna que fusiona sabores
+        clásicos con innovadoras combinaciones gourmet. Su espacio minimalista y elegante es ideal
+        para disfrutar de helados premium en un ambiente chic y sofisticado.</string>
     <string name="heladeria_3_name">Gridi helados</string>
-    <string name="heladeria_3_description">.</string>
+    <string name="heladeria_3_description">Gridi Helados es una heladería urbana conocida por sus
+        originales helados servidos en paletas y conos hechos a mano. Su ambiente dinámico y
+        colorido, con murales de arte callejero, atrae a quienes buscan un toque fresco y divertido
+        en cada visita.</string>
 
     <string name="parque_1_name">Vivero de Wilde</string>
-    <string name="parque_1_description">.</string>
+    <string name="parque_1_description">Vivero de Wilde es un parque sereno y frondoso, con senderos
+        arbolados y jardines botánicos que albergan una amplia variedad de plantas exóticas y
+        autóctonas. Es un refugio natural ideal para paseos tranquilos, picnics familiares y
+        observación de aves.</string>
     <string name="parque_2_name">Parque de los Barcos</string>
-    <string name="parque_2_description">.</string>
+    <string name="parque_2_description">Parque de los Barcos es un espacio vibrante junto al río,
+        caracterizado por sus grandes esculturas de barcos y áreas temáticas náuticas. Ofrece
+        actividades acuáticas, zonas de juegos inspiradas en el mar y paseos en pequeñas
+        embarcaciones, creando una experiencia única para toda la familia.</string>
     <string name="parque_3_name">Parque Domingo</string>
-    <string name="parque_3_description">.</string>
+    <string name="parque_3_description">Parque Domingo es un espacio comunitario acogedor, diseñado
+        para el descanso y la recreación, con amplias áreas de césped, canchas deportivas, y zonas
+        de parrillas. Los fines de semana, se llena de vida con mercados al aire libre y eventos
+        culturales para todas las edades.</string>
 
     <string name="plaza_1_name">Plaza Gonet</string>
     <string name="plaza_1_description">.</string>

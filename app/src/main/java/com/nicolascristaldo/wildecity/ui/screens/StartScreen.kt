@@ -13,6 +13,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
+import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -21,22 +22,23 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.nicolascristaldo.wildecity.R
 import com.nicolascristaldo.wildecity.data.CategoriesDataProvider
+import com.nicolascristaldo.wildecity.data.Category
 import com.nicolascristaldo.wildecity.data.ListItem
+import com.nicolascristaldo.wildecity.data.Place
 import com.nicolascristaldo.wildecity.data.PlaceDataProvider
+import com.nicolascristaldo.wildecity.data.UiState
+import com.nicolascristaldo.wildecity.ui.AppViewModel
 import com.nicolascristaldo.wildecity.ui.theme.WildeCityTheme
 
 @Composable
-fun StartScreen() {
-
-}
-
-@Composable
-fun ItemList(
+fun StartScreen(
     listItems: List<ListItem>,
-    onClick: (ListItem) -> Unit,
+    onClick: () -> Unit,
     contentPadding: PaddingValues = PaddingValues(0.dp),
+    viewModel: AppViewModel,
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
@@ -47,6 +49,7 @@ fun ItemList(
         items(listItems) { item ->
             ListItemCard(
                 item = item,
+                viewModel = viewModel,
                 onItemClick = onClick
             )
         }
@@ -56,12 +59,21 @@ fun ItemList(
 @Composable
 fun ListItemCard(
     item: ListItem,
-    onItemClick: (ListItem) -> Unit,
+    viewModel: AppViewModel,
+    onItemClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Card(
         elevation = CardDefaults.cardElevation(),
-        onClick = { onItemClick }
+        onClick = {
+            if(item is Category) {
+                viewModel.updateCategory(item)
+            }
+            else if(item is Place) {
+                viewModel.updatePlace(item)
+            }
+            onItemClick()
+        }
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -90,7 +102,7 @@ fun ItemImage(
             painter = painterResource(id = item.iconRes),
             contentDescription = stringResource(id = item.nameRes),
             modifier = Modifier
-                .size(dimensionResource(id = R.dimen.image_size))
+                .size(dimensionResource(id = R.dimen.icon_size))
         )
     }
 }
@@ -99,7 +111,11 @@ fun ItemImage(
 @Composable
 fun ListCardPreview() {
     WildeCityTheme {
-        ListItemCard(item = CategoriesDataProvider.restaurantCategory, onItemClick = {})
+        ListItemCard(
+            item = CategoriesDataProvider.restaurantCategory,
+            onItemClick = {},
+            viewModel = AppViewModel()
+        )
     }
 }
 
@@ -107,7 +123,11 @@ fun ListCardPreview() {
 @Composable
 fun ListPreview() {
     WildeCityTheme {
-        ItemList(listItems = CategoriesDataProvider.getCategories(), onClick = {})
+        StartScreen(
+            listItems = CategoriesDataProvider.getCategories(),
+            onClick = {},
+            viewModel = AppViewModel()
+        )
     }
 }
 
@@ -116,6 +136,10 @@ fun ListPreview() {
 fun ListPlacePreview() {
     val restos = PlaceDataProvider.getPlaces().filter { it.category.id == 1 }
     WildeCityTheme {
-        ItemList(listItems = restos, onClick = {})
+        StartScreen(
+            listItems = restos,
+            onClick = {},
+            viewModel = AppViewModel()
+        )
     }
 }

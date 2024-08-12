@@ -167,7 +167,7 @@ object PlaceDataProvider {
                 imageRes = R.drawable.sitio_historico_4,
                 descriptionRes = R.string.sitio_historico_4_description,
                 category = CategoriesDataProvider.sitioHistoricoCategory
-            ),
+            )
         )
     }
 }
