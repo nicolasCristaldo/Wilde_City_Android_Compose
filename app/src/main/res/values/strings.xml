@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Wilde City</string>
+
+    <string name="category_cine">Cines</string>
+    <string name="category_parque">Parques</string>
+    <string name="category_plaza">Plazas</string>
+    <string name="category_sitio_historico">Sitios historicos</string>
+    <string name="category_centro_comercial">Centros comerciales</string>
+    <string name="category_heladeria">Heladerias</string>
+    <string name="category_restaurant">Restaurantes</string>
+    <string name="category_cafeteria">Cafeterias</string>
+
+    <string name="cafeteria_1_name">Marchesi Café</string>
+    <string name="cafeteria_1_description">.</string>
+    <string name="cafeteria_2_name">Trattoria</string>
+    <string name="cafeteria_2_description">.</string>
+    <string name="cafeteria_3_name">Cafés Schweizer</string>
+    <string name="cafeteria_3_description">.</string>
+
+    <string name="centro_comercial_1_name">Alto Wilde Shopping</string>
+    <string name="centro_comercial_1_description">.</string>
+    <string name="centro_comercial_2_name">Abasto Wilde</string>
+    <string name="centro_comercial_2_description">.</string>
+
+    <string name="cine_1_name">Cine Wilde</string>
+    <string name="cine_1_description">.</string>
+    <string name="cine_2_name">New Gardens Wilde</string>
+    <string name="cine_2_description">.</string>
+    <string name="cine_3_name">Cinemark</string>
+    <string name="cine_3_description">.</string>
+
+    <string name="heladeria_1_name">Mamalisa gelato</string>
+    <string name="heladeria_1_description">.</string>
+    <string name="heladeria_2_name">Don Giani</string>
+    <string name="heladeria_2_description">.</string>
+    <string name="heladeria_3_name">Gridi helados</string>
+    <string name="heladeria_3_description">.</string>
+
+    <string name="parque_1_name">Vivero de Wilde</string>
+    <string name="parque_1_description">.</string>
+    <string name="parque_2_name">Parque de los Barcos</string>
+    <string name="parque_2_description">.</string>
+    <string name="parque_3_name">Parque Domingo</string>
+    <string name="parque_3_description">.</string>
+
+    <string name="plaza_1_name">Plaza Gonet</string>
+    <string name="plaza_1_description">.</string>
+    <string name="plaza_2_name">Plaza del Papa</string>
+    <string name="plaza_2_description">.</string>
+    <string name="plaza_3_name">Plaza Central</string>
+    <string name="plaza_3_description">.</string>
+    <string name="plaza_4_name">Plaza del Presidente</string>
+    <string name="plaza_4_description">.</string>
+
+    <string name="restaurant_1_name">El Negro Restó</string>
+    <string name="restaurant_1_description">.</string>
+    <string name="restaurant_2_name">La poma</string>
+    <string name="restaurant_2_description">.</string>
+    <string name="restaurant_3_name">Comer Wilde</string>
+    <string name="restaurant_3_description">.</string>
+    <string name="restaurant_4_name">El antiguo</string>
+    <string name="restaurant_4_description">.</string>
+    <string name="restaurant_5_name">Restaurant Buen Destino</string>
+    <string name="restaurant_5_description">.</string>
+
+    <string name="sitio_historico_1_name">Palacio histórico de Wilde</string>
+    <string name="sitio_historico_1_description">.</string>
+    <string name="sitio_historico_2_name">Museo wilde</string>
+    <string name="sitio_historico_2_description">.</string>
+    <string name="sitio_historico_3_name">Monumento a los veteranos</string>
+    <string name="sitio_historico_3_description">.</string>
+    <string name="sitio_historico_4_name">Catedral de Wilde</string>
+    <string name="sitio_historico_4_description">.</string>
+
+</resources>
