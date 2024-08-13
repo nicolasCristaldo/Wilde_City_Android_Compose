@@ -1,13 +1,14 @@
 package com.nicolascristaldo.wildecity.ui.screens
 
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -21,7 +22,6 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.nicolascristaldo.wildecity.R
 import com.nicolascristaldo.wildecity.data.CategoriesDataProvider
-import com.nicolascristaldo.wildecity.data.PlaceDataProvider
 import com.nicolascristaldo.wildecity.data.WildeCityScreen
 import com.nicolascristaldo.wildecity.ui.AppViewModel
 
@@ -84,8 +84,14 @@ fun WildeCityTopAppBar(
     navigateUp: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    TopAppBar(
-        title = {Text(text = stringResource(id = currentScreen.title))},
+    CenterAlignedTopAppBar(
+        title = {
+            Text(
+                color = MaterialTheme.colorScheme.primary,
+                text = stringResource(id = currentScreen.title),
+                style = MaterialTheme.typography.displayLarge
+            )
+        },
         navigationIcon = {
             if(canNavigateBack) {
                 IconButton(onClick = navigateUp) {

@@ -16,11 +16,22 @@
     <string name="category_cafeteria">Cafeterias</string>
 
     <string name="cafeteria_1_name">Marchesi Café</string>
-    <string name="cafeteria_1_description">.</string>
+    <string name="cafeteria_1_description">Marchesi Cafe es una cafetería elegante y acogedora.
+        Ofrece una selección gourmet de cafés de origen, pasteles artesanales y desayunos saludables
+        , servidos en un ambiente moderno con decoración minimalista. Con cómodos asientos y wifi
+        gratuito, es el lugar perfecto para una pausa relajante en medio de las compras.</string>
     <string name="cafeteria_2_name">Trattoria</string>
-    <string name="cafeteria_2_description">.</string>
+    <string name="cafeteria_2_description">Trattoria es una cafetería con encanto rústico, inspirada
+        en las tradicionales casas de campo italianas. Su menú incluye cafés robustos, paninis
+        recién hechos y una selección de postres caseros, servidos en un ambiente cálido con muebles
+        de madera y una terraza ajardinada. Es un lugar ideal para disfrutar de una comida relajada
+        o un café con amigos.</string>
     <string name="cafeteria_3_name">Cafés Schweizer</string>
-    <string name="cafeteria_3_description">.</string>
+    <string name="cafeteria_3_description">Cafés Schweizer es una cafetería de estilo europeo que
+        destaca por su elegante decoración alpina y su ambiente tranquilo. Ofrece una variedad de
+        cafés de especialidad, chocolates suizos calientes y repostería fina, todo elaborado con
+        ingredientes importados. Es el lugar perfecto para disfrutar de una experiencia culinaria
+        sofisticada en un entorno acogedor y refinado.</string>
 
     <string name="centro_comercial_1_name">Alto Wilde Shopping</string>
     <string name="centro_comercial_1_description">Alto Wilde Shopping es un centro comercial de
@@ -29,7 +40,10 @@
         libre con vistas panorámicas, creando un ambiente sofisticado y atractivo para los
         visitantes.</string>
     <string name="centro_comercial_2_name">Abasto Wilde</string>
-    <string name="centro_comercial_2_description">.</string>
+    <string name="centro_comercial_2_description">Abasto Wilde Shopping es un centro comercial
+        vibrante y familiar, construido en un histórico mercado restaurado. Combina tiendas
+        populares, una gran plaza de comidas y un área de juegos interactivos, ofreciendo una
+        experiencia dinámica y accesible para todos.</string>
 
     <string name="cine_1_name">Cine Wilde</string>
     <string name="cine_1_description">Cine Wilde es un espacio elegante y contemporáneo, con un
@@ -80,32 +94,84 @@
         culturales para todas las edades.</string>
 
     <string name="plaza_1_name">Plaza Gonet</string>
-    <string name="plaza_1_description">.</string>
+    <string name="plaza_1_description">Plaza Gonet es un espacio urbano moderno, con amplias zonas
+        verdes, fuentes de agua iluminadas y esculturas contemporáneas. Rodeada de cafés y tiendas,
+        es un punto de encuentro popular para los residentes locales, que disfrutan de sus senderos
+        peatonales, áreas de descanso, y eventos culturales al aire libre.</string>
     <string name="plaza_2_name">Plaza del Papa</string>
-    <string name="plaza_2_description">.</string>
+    <string name="plaza_2_description">Plaza del Papa es una plaza histórica, dominada por una
+        imponente estatua central del pontífice, rodeada de jardines bien cuidados y bancos de
+        piedra. Es un lugar de reflexión y encuentro, con una pequeña capilla y áreas sombreadas
+        por árboles centenarios, donde se celebran actos religiosos y comunitarios.</string>
     <string name="plaza_3_name">Plaza Central</string>
-    <string name="plaza_3_description">.</string>
+    <string name="plaza_3_description">Plaza Central es el corazón vibrante de la ciudad, con una
+        fuente monumental rodeada de flores y un gran reloj en su centro. Es un espacio dinámico,
+        con artistas callejeros, mercados artesanales y áreas para eventos públicos. Su diseño
+        abierto y simétrico la convierte en un punto de referencia y encuentro para todos los
+        habitantes..</string>
     <string name="plaza_4_name">Plaza del Presidente</string>
-    <string name="plaza_4_description">.</string>
+    <string name="plaza_4_description">Plaza del Presidente es una plaza solemne y formal, con una
+        estatua ecuestre en honor a un destacado líder nacional en su centro. Rodeada de edificios
+        gubernamentales y con un paseo de banderas nacionales, es un lugar emblemático para
+        ceremonias oficiales y actos cívicos, con un ambiente de respeto y orgullo patriótico.
+    </string>
 
     <string name="restaurant_1_name">El Negro Restó</string>
-    <string name="restaurant_1_description">.</string>
+    <string name="restaurant_1_description">El Negro Restó es un restaurante elegante con una
+        atmósfera sofisticada, caracterizado por su decoración en tonos oscuros y muebles de diseño
+        contemporáneo. Su menú ofrece una fusión de cocina internacional y local, con platos
+        creativos y presentaciones refinadas. El ambiente íntimo, acompañado de una selección de
+        vinos exclusivos y una iluminación tenue, lo convierte en el lugar perfecto para cenas
+        especiales.</string>
     <string name="restaurant_2_name">La poma</string>
-    <string name="restaurant_2_description">.</string>
+    <string name="restaurant_2_description">La Poma es un restaurante acogedor con un estilo rústico
+        y cálido, decorado con madera natural y detalles campestres. Su menú se centra en cocina
+        tradicional con un toque moderno, utilizando ingredientes frescos y locales en cada plato.
+        Ofrece una experiencia culinaria auténtica en un ambiente relajado, ideal para cenas
+        familiares y reuniones con amigos.</string>
     <string name="restaurant_3_name">Comer Wilde</string>
-    <string name="restaurant_3_description">.</string>
+    <string name="restaurant_3_description">Comer Wilde es un restaurante de estilo urbano y moderno
+        , con una decoración minimalista y toques industriales. Su menú se especializa en
+        gastronomía creativa y de temporada, con platos innovadores y presentaciones artísticas.
+        La atmósfera vibrante, junto con una selección de cócteles artesanales y una carta de vinos
+        diversa, hace de este lugar un destino popular para los amantes de la buena comida y el
+        ambiente contemporáneo.</string>
     <string name="restaurant_4_name">El antiguo</string>
-    <string name="restaurant_4_description">.</string>
+    <string name="restaurant_4_description">El Antiguo es un restaurante con un ambiente clásico y
+        elegante, inspirado en la decoración de épocas pasadas. Su menú ofrece una variedad de
+        platos tradicionales con recetas heredadas y técnicas culinarias refinadas, servidos en un
+        entorno de lujo y comodidad. La experiencia se completa con un servicio impecable y una
+        carta de vinos selectos, ideal para cenas formales y ocasiones especiales.</string>
     <string name="restaurant_5_name">Restaurant Buen Destino</string>
-    <string name="restaurant_5_description">.</string>
+    <string name="restaurant_5_description">Restaurant Buen Destino es un elegante establecimiento
+        con un diseño contemporáneo y relajado, que combina elementos de lujo con comodidad. Su menú
+        está centrado en una mezcla de cocina internacional y fusión, destacando platos innovadores
+        y sabores exóticos. Ofrece un ambiente acogedor y moderno, con un servicio atento que
+        garantiza una experiencia gastronómica memorable en cada visita.</string>
 
     <string name="sitio_historico_1_name">Palacio histórico de Wilde</string>
-    <string name="sitio_historico_1_description">.</string>
+    <string name="sitio_historico_1_description">El Palacio Histórico de Wilde es una imponente
+        residencia de estilo renacentista, con una fachada ornamentada y jardines formales que
+        rodean sus amplios terrenos. Su interior cuenta con salones opulentos, tapices antiguos
+        y una colección de arte que data de siglos pasados. El palacio es un testimonio de la rica
+        herencia cultural de la región y un destino popular para eventos y visitas guiadas.</string>
     <string name="sitio_historico_2_name">Museo wilde</string>
-    <string name="sitio_historico_2_description">.</string>
+    <string name="sitio_historico_2_description">El Museo Wilde es un espacio cultural moderno,
+        dedicado a la historia y el arte contemporáneo de la región. Sus salas amplias y luminosas
+        albergan exposiciones permanentes y temporales, que incluyen desde artefactos arqueológicos
+        hasta obras de artistas locales. Con una biblioteca especializada y talleres educativos, es
+        un punto de referencia para el aprendizaje y la inspiración artística.</string>
     <string name="sitio_historico_3_name">Monumento a los veteranos</string>
-    <string name="sitio_historico_3_description">.</string>
+    <string name="sitio_historico_3_description">El Monumento a los Veteranos es una estructura
+        solemne y digna, erigida en honor a los soldados que sirvieron en conflictos bélicos.
+        Consiste en una estatua de piedra con placas conmemorativas grabadas, rodeado de un mural
+        que representa escenas de valor y sacrificio. En su base, se encuentran jardines con
+        senderos tranquilos y bancos para la reflexión.</string>
     <string name="sitio_historico_4_name">Catedral de Wilde</string>
-    <string name="sitio_historico_4_description">.</string>
+    <string name="sitio_historico_4_description">La Catedral de Wilde es una majestuosa edificación
+        gótica, con altas torres que se elevan sobre la ciudad y vitrales coloridos que narran
+        escenas bíblicas. Su interior cuenta con un imponente órgano de tubos y un altar de mármol
+        exquisitamente tallado. Es un centro espiritual y cultural, conocido por sus misas solemnes
+        y conciertos de música sacra.</string>
 
 </resources>

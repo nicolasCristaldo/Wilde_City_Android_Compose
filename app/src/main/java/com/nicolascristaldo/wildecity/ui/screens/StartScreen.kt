@@ -12,24 +12,23 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberTopAppBarState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.nicolascristaldo.wildecity.R
 import com.nicolascristaldo.wildecity.data.CategoriesDataProvider
 import com.nicolascristaldo.wildecity.data.Category
 import com.nicolascristaldo.wildecity.data.ListItem
 import com.nicolascristaldo.wildecity.data.Place
 import com.nicolascristaldo.wildecity.data.PlaceDataProvider
-import com.nicolascristaldo.wildecity.data.UiState
 import com.nicolascristaldo.wildecity.ui.AppViewModel
 import com.nicolascristaldo.wildecity.ui.theme.WildeCityTheme
 
@@ -64,7 +63,11 @@ fun ListItemCard(
     modifier: Modifier = Modifier
 ) {
     Card(
-        elevation = CardDefaults.cardElevation(),
+        elevation = CardDefaults.cardElevation(4.dp),
+        modifier = Modifier
+            .padding(
+                horizontal = dimensionResource(id = R.dimen.padding_medium)
+            ),
         onClick = {
             if(item is Category) {
                 viewModel.updateCategory(item)
@@ -85,6 +88,7 @@ fun ListItemCard(
 
             Text(
                 text = stringResource(id = item.nameRes),
+                style = MaterialTheme.typography.displaySmall,
                 modifier = Modifier
                     .padding(start = dimensionResource(id = R.dimen.padding_large))
             )
@@ -101,6 +105,7 @@ fun ItemImage(
         Image(
             painter = painterResource(id = item.iconRes),
             contentDescription = stringResource(id = item.nameRes),
+            colorFilter = ColorFilter.tint(color = MaterialTheme.colorScheme.primary),
             modifier = Modifier
                 .size(dimensionResource(id = R.dimen.icon_size))
         )
