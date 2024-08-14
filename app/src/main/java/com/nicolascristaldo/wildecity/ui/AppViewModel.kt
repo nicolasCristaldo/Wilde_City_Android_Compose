@@ -2,6 +2,7 @@ package com.nicolascristaldo.wildecity.ui
 
 import androidx.lifecycle.ViewModel
 import com.nicolascristaldo.wildecity.data.Category
+import com.nicolascristaldo.wildecity.data.ListItem
 import com.nicolascristaldo.wildecity.data.Place
 import com.nicolascristaldo.wildecity.data.PlaceDataProvider
 import com.nicolascristaldo.wildecity.data.UiState
@@ -13,7 +14,7 @@ class AppViewModel: ViewModel() {
     private val _uiState = MutableStateFlow(UiState())
     val uiState: StateFlow<UiState> = _uiState
 
-    fun updateCategory(category: Category) {
+    private fun updateCategory(category: Category) {
         _uiState.update {
             it.copy(
                 selectedCategory = category,
@@ -24,11 +25,20 @@ class AppViewModel: ViewModel() {
         }
     }
 
-    fun updatePlace(place: Place) {
+    private fun updatePlace(place: Place) {
         _uiState.update {
             it.copy(
                 selectedPlace = place
             )
+        }
+    }
+
+    fun updateUiState(item: ListItem) {
+        if(item is Category) {
+            updateCategory(item)
+        }
+        else if(item is Place) {
+            updatePlace(item)
         }
     }
 }

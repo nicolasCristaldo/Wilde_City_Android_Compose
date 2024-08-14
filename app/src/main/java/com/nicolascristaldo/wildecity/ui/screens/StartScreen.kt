@@ -69,12 +69,7 @@ fun ListItemCard(
                 horizontal = dimensionResource(id = R.dimen.padding_medium)
             ),
         onClick = {
-            if(item is Category) {
-                viewModel.updateCategory(item)
-            }
-            else if(item is Place) {
-                viewModel.updatePlace(item)
-            }
+            viewModel.updateUiState(item)
             onItemClick()
         }
     ) {

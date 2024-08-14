@@ -9,11 +9,11 @@
     <string name="category_cine">Cines</string>
     <string name="category_parque">Parques</string>
     <string name="category_plaza">Plazas</string>
-    <string name="category_sitio_historico">Sitios historicos</string>
+    <string name="category_sitio_historico">Sitios históricos</string>
     <string name="category_centro_comercial">Centros comerciales</string>
-    <string name="category_heladeria">Heladerias</string>
+    <string name="category_heladeria">Heladerías</string>
     <string name="category_restaurant">Restaurantes</string>
-    <string name="category_cafeteria">Cafeterias</string>
+    <string name="category_cafeteria">Cafeterías</string>
 
     <string name="cafeteria_1_name">Marchesi Café</string>
     <string name="cafeteria_1_description">Marchesi Cafe es una cafetería elegante y acogedora.
